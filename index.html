@@ -11,11 +11,11 @@
 </head>
 
 <body>
-    <header class="container mb-5">
+    <header class="container">
         <!-- Navbar Section Start -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand fw-bold" href="#">Digital Learning Platfrom</a>
+                <a class="navbar-brand fw-bold" href="#home">Digital Learning Platfrom</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -25,7 +25,7 @@
                     <div class="d-flex justify-content-center w-100">
                         <ul class="navbar-nav mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                                <a class="nav-link" aria-current="page" href="#home">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Courses</a>
@@ -53,11 +53,90 @@
         <!-- Navbar Section End-->
 
         <!-- Slide Section Start -->
-        <!-- Slide Section End -->
+        <section id="home">
+            <div class="container vh-100 ">
+                <div id="banner" class="carousel slide h-100" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#banner" data-bs-slide-to="0" class="active" aria-current="true"
+                            aria-label="First slide"></li>
+                        <li data-bs-target="#banner" data-bs-slide-to="1" aria-label="Second slide"></li>
+                        <li data-bs-target="#banner" data-bs-slide-to="2" aria-label="Third slide"></li>
+                    </ol>
+                    <div class="carousel-inner h-100" role="listbox">
+                        <!-- slider item 1 -->
+                        <div class="carousel-item active h-100 mt-5">
+                            <img src="images/cover/cover-1.png" class="w-100 d-block h-100 slider-image" alt="">
+                            <div
+                                class="carousel-caption h-100 w-100 bg-dark bg-opacity-50 start-0 end-0 top-0 bottom-0 d-flex align-items-center justify-content-center">
+                                <div class="row">
+                                    <div class="col-10 col-md-8 mx-auto pt-5">
+                                        <h3 class="display-3 fw-bold">Get Started Digital Learning</h3>
+                                        <p class="my-4">Digital learning is any type of learning that is accompanied by
+                                            technology or by instructional practice that makes effective use of
+                                            technology. It encompasses the application of a wide spectrum of practices,
+                                            including blended and virtual learning.</p>
+                                        <button type="button" class="btn btn-primary text-white fw-bold px-4 py-2 me-3"
+                                            data-bs-toggle="modal" data-bs-target="#">Get Started</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
+                        <!-- slider item 2 -->
+                        <div class="carousel-item active h-100 mt-5">
+                            <img src="images/cover/cover-2.jpg" class="w-100 d-block h-100 slider-image" alt="">
+                            <div
+                                class="carousel-caption h-100 w-100 bg-dark bg-opacity-50 start-0 end-0 top-0 bottom-0 d-flex align-items-center justify-content-center">
+                                <div class="row">
+                                    <div class="col-10 col-md-8 mx-auto pt-5">
+                                        <h3 class="display-3 fw-bold">Get Started Digital Learning</h3>
+                                        <p class="my-4">Digital learning is any type of learning that is accompanied by
+                                            technology or by instructional practice that makes effective use of
+                                            technology. It encompasses the application of a wide spectrum of practices,
+                                            including blended and virtual learning.</p>
+                                        <button type="button" class="btn btn-primary text-white fw-bold px-4 py-2 me-3"
+                                            data-bs-toggle="modal" data-bs-target="#">Get
+                                            Started</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- slider item 3 -->
+                        <div class="carousel-item active h-100 mt-5">
+                            <img src="images/cover/cover-3.jpg" class="w-100 d-block h-100 slider-image" alt="">
+                            <div
+                                class="carousel-caption h-100 w-100 bg-dark bg-opacity-50 start-0 end-0 top-0 bottom-0 d-flex align-items-center justify-content-center">
+                                <div class="row">
+                                    <div class="col-10 col-md-8 mx-auto pt-5">
+                                        <h3 class="display-3 fw-bold">Get Started Digital Learning</h3>
+                                        <p class="my-4">Digital learning is any type of learning that is accompanied by
+                                            technology or by instructional practice that makes effective use of
+                                            technology. It encompasses the application of a wide spectrum of practices,
+                                            including blended and virtual learning.</p>
+                                        <button type="button" class="btn btn-primary text-white fw-bold px-4 py-2 me-3"
+                                            data-bs-toggle="modal" data-bs-target="#">Get
+                                            Started</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class=" carousel-control-prev" type="button" data-bs-target="#banner"
+                        data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span
+                            class="visually-hidden">Previous</span></button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#banner" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- Slide Section End -->
     </header>
 
-
+    <!-- Boostrap Link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
